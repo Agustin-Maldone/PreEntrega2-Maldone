@@ -1,0 +1,583 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+@font-face {
+    font-family: Cairo;
+    src: url(../Fonts/Cairo.ttf);
+}
+@font-face{
+    font-family: Comme;
+    src: url(../Fonts/Comme.ttf);
+}
+@font-face{
+    font-family: Konkhmer;
+    src: url(../Fonts/Konkhmer.ttf);
+}
+ /*header*/   
+header{
+    background-color:#659B5E;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{    
+    list-style: none;  
+}
+.menu li{
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 30px;
+    font-family: Cairo; 
+}
+.menu li a{
+    color: white;
+    text-decoration: none; 
+}
+header img{
+    width: 100px;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center
+}
+
+/*Main*/
+.section1{
+    background-image: url("../img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 50px;
+}
+
+.section1 h1{
+    font-size: 40px;  
+    font-family: Konkhmer;
+    color: #C14953;
+    -webkit-text-stroke: 0.1px black;
+}
+.section1 p{
+    font-size: 20px;
+    font-family: Konkhmer;
+    color: white;
+    -webkit-text-stroke: 0.8px black;
+    
+}
+.section1{
+    display: flex;
+    
+}
+.section1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+     background-image: url("../img/fondocarreras.jpg");
+ }
+
+.divsection2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.divsection2 h2{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Konkhmer;
+    
+}
+.divsection2 p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Konkhmer;
+    
+}
+.article1{
+    display: flex;
+    justify-content: space-around;
+}
+.divart1{
+    width: 250px;
+    height: 500px;
+    margin-top: 20px;
+    border: 0.5px solid black;
+    background-color: #cccccc;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+.divart1 img{
+    width: 250px;
+    height: 172px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.divart1 h3{
+    font-family: Konkhmer;
+    color: #659B5E;
+    -webkit-text-stroke: 0.1px black;
+    text-align: center;
+}
+.divart1 h4{
+    text-align: center;
+    font-family: Comme;
+    color: #118AB2;
+}
+.divart1 p{
+    font-family: Cairo;
+    text-align: start;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0 5px
+}
+.divartboton{
+    display: flex;
+    justify-content: center
+}
+.divart1 a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: Cairo;
+}
+.article2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.article2 a{
+    
+    text-decoration: none;
+    background-color: aqua;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    border-radius: 5px; 
+    text-align: center; 
+    font-family: Cairo;
+    font-size: 25px;
+    border: 1px solid black;
+}
+.article2 div{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    
+}
+
+
+/*footer*/
+footer{
+    display: flex;
+    background-color: #393E41;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    
+}
+.footertop{
+    display: flex;
+    justify-content: space-between
+}
+.footertop h3{
+    color: black;
+    font-family: cairo;
+    font-size: 30px; 
+}
+.footermid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footermid p{
+    font-size: 23px;
+    color: black;
+    font-family: cairo;   
+}
+.contacto{
+    display: flex;
+    align-items: center;  
+}
+.contacto img{
+    width: 40px;
+}
+.sedes{
+    display: flex;
+    flex-direction: column;
+}
+.sedes a{
+    text-decoration: none;
+    font-family: cairo;
+    color: black;
+    font-size: 23px;
+}
+.acreditaciones{
+    display: flex;     
+}
+.acreditaciones img{
+    width: 120px;
+}
+
+.footerbot{
+    display: flex;  
+    margin-top: 20px; 
+}
+.footerbot img{
+    width: 40px;
+}
+
+/*Inscripciones*/
+
+.mainins{
+    background-image: url("../img/fondoinscripcion.png");
+    background-position-x: -50px;
+    background-repeat: no-repeat;
+    background-color: #fdf0e7ff;
+    
+}
+
+.divins0{
+    display: flex;
+    justify-content: center;
+    height: 157px;
+}
+.divins0 h1{
+    font-family: Konkhmer;
+    color: #C14953;
+    -webkit-text-stroke: 0.1px black;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid black; 
+}
+.fotoforms{
+    width: 16%;
+    margin-top: 12%;
+}
+.artins2{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.artins2 h2{
+    font-size: 40px;  
+    font-family: Comme;
+    color: #C14953;
+    -webkit-text-stroke: 0.1px black;
+    padding-top: 38px;
+    text-align: center;
+}
+.artins2 p{
+    font-size: 20px;
+    font-family: Konkhmer;
+    color: white;
+    -webkit-text-stroke: 0.8px black;
+    text-align: center;
+    padding-top: 22px;
+}
+.secins1{
+    margin-top: 11%;
+    margin-left: 4%;
+    margin-right: 7%;
+    display: flex;
+}
+.artins{
+    border: 1px solid black;
+    background-color:white;
+    padding-bottom: 1%
+}
+
+
+.artins h2{
+    font-family: Comme;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.divins1 p{
+    font-family: cairo;
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+    
+    
+
+.artins h3{
+    font-family: Comme;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column; 
+}
+
+form label{
+    font-family: cairo;
+}
+
+form input{
+    height: 20px;
+    border: 1px solid #118AB2;
+    border-radius: 5%;
+}
+
+.botonforms input{
+    margin-top: 20px;
+    background-color: #D0FFCE;
+    width: 100%;
+    border-radius: 5%;
+    border: 1px solid black;
+    font-family: cairo;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    height: 30px;    
+}
+form select{
+    height: 30px;
+    border: 1px solid #118AB2;
+    border-radius: 5%;    
+}
+form p{
+    font-family: cairo;  
+}
+
+/*Carreras*/
+
+
+.carreradiv1 h2{
+    padding-top: 30px;
+    font-family: Konkhmer;
+    color: #197BBD;
+    -webkit-text-stroke: 0.1px black;
+    text-align: center;
+    font-size: 30px;
+}
+.carreradiv1 p{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Konkhmer;
+    padding-bottom: 30px;
+}
+
+
+.carreradiv2{
+    border: 0.5px solid black;
+    background-color: #cccccc;
+    
+    margin-top: 30px;
+    height: auto;
+   
+   
+}
+
+.carreradiv2 h3{
+    font-family: Konkhmer;
+    color: #659B5E;
+    -webkit-text-stroke: 0.1px black;
+    text-align: center;
+}
+.carreradiv2 h4{
+    text-align: center;
+    font-family: Comme;
+    color: #118AB2;
+}
+.carreradiv2 p{
+    font-family: Cairo;
+    text-align: start;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 0 5px
+}
+
+.carreradiv2 a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: Cairo;
+}
+
+
+.carreradiv2 img{
+    width: 100%;
+    height: 40%;
+}
+
+
+.maincarrera{
+    background-image: url("../img/fondocarreras.jpg");
+}
+
+
+@media (max-width: 480px){
+    header {
+        background-color: #659B5E;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer {
+        display: flex;
+        background-color: #393E41;
+        flex-direction: column;
+        padding: 3%;
+    }
+    .footertop h3 {
+        color: black;
+        font-family: cairo;
+        font-size: 20px
+    }
+    .contacto {
+        display: flex;
+        flex-direction: column;
+    }
+    .footermid p {
+        font-size: 15px;
+        color: black;
+        font-family: cairo;
+    }
+    
+
+    .sedes {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .sedes a {
+        text-decoration: none;
+        font-family: cairo;
+        color: black;
+        font-size: 20px;
+    }
+    .acreditaciones {
+        display: flex;
+        flex-direction: column;
+    }
+    .acreditaciones img {
+        width: 115px;
+    }
+
+    .footerbot {
+        display: flex;
+        margin-top: 4%;
+        justify-content: space-between
+    }
+
+    .contacto {
+        display: flex;
+        flex-direction: column;
+        padding-right: 5%;
+    }
+    .mainins{
+        background-image: none;
+    }
+    .fotoforms {
+        width: 40%;
+        margin-top: 4%;
+    }
+   
+  
+}
+
+@media (max-width: 320px){
+   
+    .sedes a {
+        text-decoration: none;
+        font-family: cairo;
+        color: black;
+        font-size: 14px;
+    }
+    .footermid p {
+        font-size: 15px;
+        color: black;
+        font-family: cairo;
+    }
+   
+    .mainins{
+        background-image: none;
+    }
+    .fotoforms {
+        width: 40%;
+        margin-top: 4%;
+    }
+
+    header {
+        background-color: #659B5E;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu li {
+        margin-right: 39px;
+    }
+}
+
+@media (min-width: 768px){
+    .artins{
+        width: 60%;
+    } 
+    .mainins{
+        background-image: none;
+    }
+    .fotoforms {
+        width: 28%;
+        margin-top: 2%;
+    }
+    footer {
+        display: flex;
+        background-color: #393E41;
+        flex-direction: column;
+        padding-left: 34px;
+        padding-right: 50px;
+        }
+}
+@media (min-width: 1024px){
+    .artins{
+        width: 40%;
+    }
+    .mainins{
+        background-image: url("../img/fondoinscripcion.png");
+        background-position-x: -50px;
+        background-repeat: no-repeat;
+        background-color: #fdf0e7ff;
+    }
+    .fotoforms {
+        width: 23%;
+        margin-top: 17%;
+    }
+
+}
