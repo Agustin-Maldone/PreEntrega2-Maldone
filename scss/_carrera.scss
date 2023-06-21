@@ -1,0 +1,66 @@
+.carreradiv1 h2{
+    padding-top: 30px;
+    font-family: Konkhmer;
+    color: #197BBD;
+    -webkit-text-stroke: 0.1px black;
+    text-align: center;
+    font-size: 30px;
+}
+.carreradiv1 p{
+    text-align: center;
+    padding-top: 30px;
+    font-family: Konkhmer;
+    padding-bottom: 30px;
+}
+
+
+.carreradiv2{
+    border: 0.5px solid black;
+    background-color: #cccccc;
+    margin-bottom: 3%;
+    margin-top: 30px;
+    height: auto;
+   
+   
+}
+
+.carreradiv2 h3{
+    font-family: Konkhmer;
+    color: #659B5E;
+    -webkit-text-stroke: 0.1px black;
+    text-align: center;
+}
+.carreradiv2 h4{
+    text-align: center;
+    font-family: Comme;
+    color: #118AB2;
+}
+.carreradiv2 p{
+    font-family: Cairo;
+    text-align: start;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 0 5px
+}
+
+.carreradiv2 a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-family: Cairo;
+}
+
+
+.carreradiv2 img{
+    width: 100%;
+    height: 40%;
+}
+
+
+.maincarrera{
+    background-image: url("../img/fondocarreras.jpg");
+}

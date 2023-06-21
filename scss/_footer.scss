@@ -1,0 +1,60 @@
+footer{
+    display: flex;
+    background-color: #393E41;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: auto;
+    
+}
+.footertop{
+    display: flex;
+    justify-content: space-between
+}
+.footertop h3{
+    color: black;
+    font-family: cairo;
+    font-size: 30px; 
+}
+.footermid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footermid p{
+    font-size: 23px;
+    color: black;
+    font-family: cairo;   
+}
+.contacto{
+    display: flex;
+    align-items: center;  
+}
+.contacto img{
+    width: 40px;
+}
+.sedes{
+    display: flex;
+    flex-direction: column;
+}
+.sedes a{
+    text-decoration: none;
+    font-family: cairo;
+    color: black;
+    font-size: 23px;
+}
+.acreditaciones{
+    display: flex;     
+}
+.acreditaciones img{
+    width: 120px;
+}
+
+.footerbot{
+    display: flex;  
+    margin-top: 20px; 
+}
+.footerbot img{
+    width: 40px;
+}

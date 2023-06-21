@@ -1,0 +1,31 @@
+ /*header*/   
+ header{
+    background-color:#659B5E;
+    display: flex;
+    justify-content: space-around;
+}
+.menu{    
+    list-style: none;  
+}
+.menu li{
+    display: inline-block;
+    margin-right: 60px;
+    margin-left: 30px;
+    font-family: Cairo; 
+}
+.menu li a{
+    color: white;
+    text-decoration: none; 
+}
+header img{
+    width: 100px;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    margin: 0;
+    padding: 0%;
+    display: flex;
+    align-items: center
+}
