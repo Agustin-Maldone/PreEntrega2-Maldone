@@ -77,6 +77,11 @@ nav{
     flex-direction: column;
     justify-content: space-around;
 }
+
+.section1 div video{
+    width: 500px;
+}
+
 .section2{
     display: flex;
     justify-content: center;
@@ -254,9 +259,13 @@ footer{
     background-position-x: -50px;
     background-repeat: no-repeat;
     background-color: #fdf0e7ff;
-    
+    padding-bottom: 30px;
 }
 
+.formsec{
+    padding: 10px;
+    
+}
 .divins0{
     display: flex;
     justify-content: center;
@@ -391,7 +400,7 @@ form p{
 .carreradiv2{
     border: 0.5px solid black;
     background-color: #cccccc;
-    
+    margin-bottom: 3%;
     margin-top: 30px;
     height: auto;
    
@@ -448,11 +457,34 @@ form p{
         flex-direction: column;
         align-items: center;
     }
+    .section1{
+        background-image: none;
+    }
+
+    .section1 div video {
+        display: none;
+    }
+    .section1 h1 {
+        font-size: 29px;
+    }
+    .section1 p {
+        font-size: 15px;
+    }
+    .article1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .article2 a {
+        font-size: 20px;
+        width: 358px;
+        
+    }
     footer {
         display: flex;
         background-color: #393E41;
         flex-direction: column;
-        padding: 3%;
+        padding: 0%;
     }
     .footertop h3 {
         color: black;
@@ -524,7 +556,18 @@ form p{
         color: black;
         font-family: cairo;
     }
-   
+    .section1 div video {
+        display: none;
+    }
+    .section1 h1 {
+        font-size: 29px;
+    }
+    .section1 p {
+        font-size: 15px;
+    }
+    .section1{
+        background-image: none;
+    }
     .mainins{
         background-image: none;
     }
@@ -557,13 +600,40 @@ form p{
         width: 28%;
         margin-top: 2%;
     }
+    
     footer {
         display: flex;
         background-color: #393E41;
         flex-direction: column;
         padding-left: 34px;
         padding-right: 50px;
-        }
+    }
+
+    .sedes{
+        padding-left: 31px;
+    }
+    .section1 div video {
+        width: 366px;
+    }
+
+    .section1 h1 {
+        font-size: 32px;
+    }
+    .section1 p {
+        font-size: 16px;
+    }
+    .divart1 {
+        width: 177px;
+        height: auto;
+    }
+    .divart1 p {
+        font-size: 14px;
+    }
+    .divart1 img {
+        width: 177px;
+        height: 112px;
+    }
+    
 }
 @media (min-width: 1024px){
     .artins{
