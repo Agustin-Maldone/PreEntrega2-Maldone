@@ -78,7 +78,7 @@ nav{
     justify-content: space-around;
 }
 
-.section1 div video{
+.video{
     width: 500px;
 }
 
@@ -448,6 +448,53 @@ form p{
     background-image: url("../img/fondocarreras.jpg");
 }
 
+@media (max-width: 768px){
+    .artins{
+        width: 60%;
+    } 
+    .mainins{
+        background-image: none;
+    }
+    .fotoforms {
+        width: 28%;
+        margin-top: 2%;
+    }
+    
+    footer {
+        display: flex;
+        background-color: #393E41;
+        flex-direction: column;
+        padding-left: 34px;
+        padding-right: 50px;
+    }
+
+    .sedes{
+        padding-left: 31px;
+    }
+    .video {
+        width: 366px;
+    }
+
+    .section1 h1 {
+        font-size: 32px;
+    }
+    .section1 p {
+        font-size: 16px;
+    }
+    .divart1 {
+        width: 177px;
+        height: auto;
+    }
+    .divart1 p {
+        font-size: 14px;
+    }
+    .divart1 img {
+        width: 177px;
+        height: 112px;
+    }
+    
+}
+
 
 @media (max-width: 480px){
     header {
@@ -459,9 +506,10 @@ form p{
     }
     .section1{
         background-image: none;
+        background-color: #ded3b5;
     }
 
-    .section1 div video {
+    .video {
         display: none;
     }
     .section1 h1 {
@@ -543,7 +591,7 @@ form p{
   
 }
 
-@media (max-width: 320px){
+@media (max-width: 375px){
    
     .sedes a {
         text-decoration: none;
@@ -556,7 +604,7 @@ form p{
         color: black;
         font-family: cairo;
     }
-    .section1 div video {
+    .video {
         display: none;
     }
     .section1 h1 {
@@ -567,6 +615,7 @@ form p{
     }
     .section1{
         background-image: none;
+        background-color: #ded3b5;
     }
     .mainins{
         background-image: none;
@@ -588,66 +637,12 @@ form p{
         margin-right: 39px;
     }
 }
-
-@media (min-width: 768px){
-    .artins{
-        width: 60%;
-    } 
-    .mainins{
-        background-image: none;
+@media (max-width: 375px){
+    .contacto {
+        padding: 0%;
     }
-    .fotoforms {
-        width: 28%;
-        margin-top: 2%;
+    .acreditaciones img {
+        width: 100px;
     }
-    
-    footer {
-        display: flex;
-        background-color: #393E41;
-        flex-direction: column;
-        padding-left: 34px;
-        padding-right: 50px;
-    }
-
-    .sedes{
-        padding-left: 31px;
-    }
-    .section1 div video {
-        width: 366px;
-    }
-
-    .section1 h1 {
-        font-size: 32px;
-    }
-    .section1 p {
-        font-size: 16px;
-    }
-    .divart1 {
-        width: 177px;
-        height: auto;
-    }
-    .divart1 p {
-        font-size: 14px;
-    }
-    .divart1 img {
-        width: 177px;
-        height: 112px;
-    }
-    
 }
-@media (min-width: 1024px){
-    .artins{
-        width: 40%;
-    }
-    .mainins{
-        background-image: url("../img/fondoinscripcion.png");
-        background-position-x: -50px;
-        background-repeat: no-repeat;
-        background-color: #fdf0e7ff;
-    }
-    .fotoforms {
-        width: 23%;
-        margin-top: 17%;
-    }
 
-}
