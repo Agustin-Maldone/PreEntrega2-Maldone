@@ -140,7 +140,11 @@
    
   
 }
-
+@media (max-width: 400px){
+    .form-login {
+        width: 100%;
+    }
+}
 @media (max-width: 375px){
    
     .sedes a {
@@ -187,6 +191,8 @@
         margin-right: 39px;
     }
 }
+
+
 @media (max-width: 375px){
     .contacto {
         padding: 0%;
@@ -195,3 +201,4 @@
         width: 100px;
     }
 }
+

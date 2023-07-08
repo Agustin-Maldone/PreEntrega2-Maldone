@@ -1,12 +1,9 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
+@import "reset.scss";
 @import "header.scss";
 @import "mainbody.scss";
 @import "footer.scss";
 @import "inscripciones.scss";
 @import "carrera.scss";
-@import "query.scss";
 @import "fonts.scss";
+@import "formlogueo.scss";
+@import "query.scss";
